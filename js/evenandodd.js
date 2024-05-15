@@ -3,5 +3,5 @@ let number = 18;
         console.log(number + " is even");
     }
     else{
-        console.log(number + " is not even");
+        console.log(number + " is odd");
     }
