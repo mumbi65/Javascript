@@ -19,3 +19,10 @@
     let returnedArea = getAreOfFunnyShape(20, 16, 18);
     console.log(returnedArea)
 }
+
+{
+    function areaOfTrapezium(a, b, h){
+        return (a + b) / 2 * h;
+    }
+    console.log(areaOfTrapezium(10, 30, 15))
+}
