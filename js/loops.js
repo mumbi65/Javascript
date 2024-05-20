@@ -1,186 +1,231 @@
-{
-    for (let i = 0; i <=10; i++)
-        console.log("Today is Thursday " + i)
-}
+// {
+//     for (let i = 0; i <=10; i++)
+//         console.log("Today is Thursday " + i)
+// }
 
-{
-    const arr = [34, 56, 78, 90, 23, 56, 76, 43]
-    console.log(arr)
+// {
+//     const arr = [34, 56, 78, 90, 23, 56, 76, 43]
+//     console.log(arr)
      
-    for (let i = 0; i < arr.length; i++){
-        arr[i] = arr[i] + 2;
-    }
+//     for (let i = 0; i < arr.length; i++){
+//         arr[i] = arr[i] + 2;
+//     }
 
-    console.log(arr)
-}
+//     console.log(arr)
+// }
 
-// sum upto
-{
-    let n = 5
-    let sum = 0
-    for(let k = 0; k <= n; k++){
-        sum = sum + k;
+// // sum upto
+// {
+//     let n = 5
+//     let sum = 0
+//     for(let k = 0; k <= n; k++){
+//         sum = sum + k;
         
-    }
-    console.log(sum);
-}
+//     }
+//     console.log(sum);
+// }
 
-{
-    function printValues(n){
-        for(let k = 0; k <= n; k+=2){
-            console.log(k)
+// {
+//     function printValues(n){
+//         for(let k = 0; k <= n; k+=2){
+//             console.log(k)
         
-        }
-    }
-    printValues(10)
+//         }
+//     }
+//     printValues(10)
     
-    function reverseValues(m){
-        for(let p = m; p>=0; p--){
-            console.log(p)
-        }
-    }
-    reverseValues(20)
-}
+//     function reverseValues(m){
+//         for(let p = m; p>=0; p--){
+//             console.log(p)
+//         }
+//     }
+//     reverseValues(20)
+// }
 
-{
-    function evenNumbers(n){
-        for(k = 0; k<=n; k++)
-            if(k % 2 == 0){
-                console.log(k)
-            }
-    }
-    evenNumbers(20)
-}
+// {
+//     function evenNumbers(n){
+//         for(k = 0; k<=n; k++)
+//             if(k % 2 == 0){
+//                 console.log(k)
+//             }
+//     }
+//     evenNumbers(20)
+// }
 
-{
-    function multiples(n){
-        for(k = 0; k<=n; k++)
-            if( (k % 5 == 0) || (k % 10 == 0) ){
-                console.log(k)
-            }
-    }
-    multiples(100)
+// {
+//     function multiples(n){
+//         for(k = 0; k<=n; k++)
+//             if( (k % 5 == 0) || (k % 10 == 0) ){
+//                 console.log(k)
+//             }
+//     }
+//     multiples(100)
 
-    function multiplesByTen(m){
-        for(p = 0; p<=m; p++)
-            if(p % 10 == 0){
-                console.log(p)
-            }
-    }
-    multiples(100)
-}
+//     function multiplesByTen(m){
+//         for(p = 0; p<=m; p++)
+//             if(p % 10 == 0){
+//                 console.log(p)
+//             }
+//     }
+//     multiples(100)
+// }
 
-{
-    function multiplyByPower(n, m){
-        let prod = 1
-        for( k = 1; k <= m ; k++){
-           prod = prod * n   
-        }
-        return prod
-    }
-    console.log(multiplyByPower(4, 2))
-}
+// {
+//     function multiplyByPower(n, m){
+//         let prod = 1
+//         for( k = 1; k <= m ; k++){
+//            prod = prod * n   
+//         }
+//         return prod
+//     }
+//     console.log(multiplyByPower(4, 2))
+// }
 
-{
-    // arrays
-    const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
-    let n = numbers.length - 1;
-    for (let i = n; i >= 0; i--){
-        console.log(numbers[i])
+// {
+//     // arrays
+//     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
+//     let n = numbers.length - 1;
+//     for (let i = n; i >= 0; i--){
+//         console.log(numbers[i])
         
-    }
-}
+//     }
+// }
 
-{
-    const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
-    function sumInArray(){
-        let sum = 0;
-        for(let i = 0; i < numbers.length; i++ )
-            if(( numbers[i]) % 2 == 0){
-                sum = sum + numbers[1];
-            }
-            return sum;
-    }
-    console.log(sumInArray())
-}
+// {
+//     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
+//     function sumInArray(){
+//         let sum = 0;
+//         for(let i = 0; i < numbers.length; i++ )
+//             if(( numbers[i]) % 2 == 0){
+//                 sum = sum + numbers[1];
+//             }
+//             return sum;
+//     }
+//     console.log(sumInArray())
+// }
 
-{
-    const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
-    function getLeast(){
-        let currentSmallest = numbers[0]
-        for (let i = 0; i < numbers.length; i ++){
-            if(numbers[i] < currentSmallest){
-                currentSmallest = numbers[i];
-            }
-        }
-        return currentSmallest;
-    }
-    console.log(getLeast())
-}
+// {
+//     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
+//     function getLeast(){
+//         let currentSmallest = numbers[0]
+//         for (let i = 0; i < numbers.length; i ++){
+//             if(numbers[i] < currentSmallest){
+//                 currentSmallest = numbers[i];
+//             }
+//         }
+//         return currentSmallest;
+//     }
+//     console.log(getLeast())
+// }
 
-{
-    const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
-    function getLeast(){
-        let currentSmallest = numbers[0]
-        for (let i = 0; i < numbers.length; i ++){
-            if(numbers[i] > currentSmallest){
-                currentSmallest = numbers[i];
-            }
-        }
-        return currentSmallest;
-    }
-    console.log(getLeast())
-}
+// {
+//     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
+//     function getLeast(){
+//         let currentSmallest = numbers[0]
+//         for (let i = 0; i < numbers.length; i ++){
+//             if(numbers[i] > currentSmallest){
+//                 currentSmallest = numbers[i];
+//             }
+//         }
+//         return currentSmallest;
+//     }
+//     console.log(getLeast())
+// }
 
 
-{
-    // sum of numbers upto 5
+// {
+//     // sum of numbers upto 5
 
-function sumOfNumbers(n){
-    let sum = 0;
-    for(let k = 0; k <= n; k++){
-        sum = sum + k;
-}
-return sum
-    }
-console.log(sumOfNumbers(10))
-}
+// function sumOfNumbers(n){
+//     let sum = 0;
+//     for(let k = 0; k <= n; k++){
+//         sum = sum + k;
+// }
+// return sum
+//     }
+// console.log(sumOfNumbers(10))
+// }
 
-{
-    const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
-    function evenNumbers(){
-        for(i = 0; i < numbers.length; i++){
-            if(numbers[i] % 2 == 0)
-                console.log(numbers[i])
-        }
-    }
-    evenNumbers()
+// {
+//     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
+//     function evenNumbers(){
+//         for(i = 0; i < numbers.length; i++){
+//             if(numbers[i] % 2 == 0)
+//                 console.log(numbers[i])
+//         }
+//     }
+//     evenNumbers()
 
-}
+// }
 
-{
-    const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
-    function sumOfEvenNumbers(){
-        let sum = 0;
-        for(i = 0; i < numbers.length; i++){
-            if((numbers[i]) % 2 == 0)
-                sum = sum + numbers[i]
-        }
-        return sum
-    }
-    console.log (sumOfEvenNumbers())
-}
+// {
+//     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
+//     function sumOfEvenNumbers(){
+//         let sum = 0;
+//         for(i = 0; i < numbers.length; i++){
+//             if((numbers[i]) % 2 == 0)
+//                 sum = sum + numbers[i]
+//         }
+//         return sum
+//     }
+//     console.log (sumOfEvenNumbers())
+// }
 
-{
-    const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
-    function getLeast(){
-        let least = numbers[0];
-        for(k = 0; k < numbers.length; k++){
-            if(numbers[k] < least)
-                least = numbers[k]
+// {
+//     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
+//     function getLeast(){
+//         let least = numbers[0];
+//         for(k = 0; k < numbers.length; k++){
+//             if(numbers[k] < least)
+//                 least = numbers[k]
                 
+//         }
+//         return least
+//     }
+//     console.log (getLeast())
+// }
+
+{
+    const numbers = [56, 78, 89, 90]
+    function getMax(){
+        let max = numbers[0];
+        for(let i in numbers){
+            if(numbers[i]> max){
+                max = numbers[i]
+            }
         }
-        return least
+        return max;
     }
-    console.log (getLeast())
+    console.log(getMax([numbers]))
+}
+
+{
+    let x = 0;
+    while(x <= 10){
+        console.log(x);
+        x++;
+    }
+}
+
+{
+    const arr = [89, 90, 70, 65, 30, 56]
+    let x = 0;
+    while(x < arr.length){
+        console.log(x);
+        x++;
+    }
+}
+
+{
+    const numbers = [89, 90, 70, 65, 30, 56]
+    function getSum(arr){
+        let sum = 0;
+        let x = 0;
+        while( x < arr.length) {
+            sum = sum + arr[x];
+            x++;
+        }
+        return sum;
+    }
+console.log(getSum(numbers))
 }

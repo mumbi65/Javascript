@@ -1,9 +1,12 @@
 {
-    function vowelCount(string){
+    function vowelCount(name){
+        let vowels = "aeiouAEIOU"
         let count = 0;
-        for(v = 0; v <= string.length; v++){
-            if((v == "a") && (v == "e") && (v == "i") && (v == "o") && (v == "u") && ( v == "A") && ( v == "E") && (v == "I") && ( v == "O") && (v == "U"))
-                count = count + v; 
+        for(v = 0; v < name.length; v++){
+            if(vowels.includes(name[v])){
+                count = count + 1; 
+            }
+                
         }
         return count;
     }
