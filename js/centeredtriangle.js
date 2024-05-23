@@ -12,5 +12,5 @@
             console.log(newLine);
         }
     }
-    drawCenteredTriangle(10)
+    drawCenteredTriangle(20)
 }
