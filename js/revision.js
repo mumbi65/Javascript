@@ -32,4 +32,52 @@
 //         console.log(value ** 0.25);
 //     })
  
+{
+    // const arr = [20, 30, 40, 50, 60, 70, 90]
 
+    // function getAverage(arr){
+    //     let sum = 0;
+    //     for(i = 0; i < arr.length; i++){
+    //         sum = sum + arr[i];
+    //         average = sum / arr.length
+    //     }
+    //     return average
+    // }
+
+    // console.log(getAverage(arr))
+}
+
+{
+    // const array = [9, 10, 15, 20, 10, 5]
+
+    // function diffMaxAndMin(arr){
+    //     let min = arr[0];
+    //     let max = arr[0];
+    //     let diff = 0;
+
+    //     for(k = 0; k < arr.length; k++){
+    //         if(arr[k] < min){
+    //             min = arr[k];
+    //         }
+    //         if(arr[k] > max){
+    //             max = arr[k];
+    //         }
+    //         diff = max - min;
+    //     }
+    //     return diff
+    // }
+    // console.log(diffMaxAndMin(array))
+}
+
+{
+ const arr = [2, 4, 6, 8, 9, 10]
+   function arrayRaisedToItsPower(arr){
+    let result = []
+    for(m = 0; m < arr.length; m++){
+        let power = arr[m] ** [m]
+        result.push(power)
+    }
+    return result
+   }
+   console.log(arrayRaisedToItsPower(arr))
+}

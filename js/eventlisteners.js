@@ -11,13 +11,14 @@
             defaultBGcolor = false
         }else{
             document.body.style.backgroundColor = "white"
+            defaultBGcolor = true
         }
     }
 
     function changeTextBackground(){
         
         let myheading = document.getElementById("myH1")
-        myheading.style.color = "lightgrey" 
+        myheading.style.color = "lightgrey"
     }
 
     function changeBack(){
