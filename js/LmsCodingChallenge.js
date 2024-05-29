@@ -4,7 +4,7 @@
       callback(sum)
      
      
-     
+    //  don't know how to add setTimeout
     }
         function Result(whatToDisplay) {
              console.log(whatToDisplay)
