@@ -1,14 +1,15 @@
 {
     function sumAsync(num1, num2, callback) {
-      let sum = num1 + num2
-      callback(sum)
+      let result = num1 + num2
+      callback(result)
      
-     
-    //  don't know how to add setTimeout
     }
-        function Result(whatToDisplay) {
-             console.log(whatToDisplay)
-             }
-     
-     (sumAsync(10, 5, Result))
+
+    function callResults(result){
+      setTimeout(() => {
+        console.log(result)
+      }, 5000) 
+    }
+  
+     sumAsync(10, 5, callResults)
  }
