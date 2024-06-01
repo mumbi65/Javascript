@@ -16,9 +16,8 @@
            newDiv.innerHTML = `<h3>${postData[i].title}</h3>
            <p>${postData[i].body}</p>`
 
-        //Adding inline styles directly to the divs
-        newDiv.style.border = "1px solid lightgray";
-        newDiv.style.margin= "2rem";
+        //Adding styles directly to the divs
+        newDiv.style.margin= "1rem";
         newDiv.style.borderRadius = "2rem";
         newDiv.style.backgroundColor = "lightgrey";
 

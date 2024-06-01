@@ -43,3 +43,15 @@
     myButton.addEventListener("click", getData)
     myButton.addEventListener("click", getJoke)
 }
+{
+    function getPosts(){
+        fetch("https://jsonplaceholder.typicode.com/posts").then((resp) =>{
+            console.log(resp)
+        }).then((resp) => {
+            resp.json().then((r) => {
+                console.log(r)
+            })
+        })
+    }
+    getPosts
+}
