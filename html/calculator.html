@@ -7,38 +7,39 @@
     <link rel="stylesheet" href="calculator.css">
 </head>
     <body>
+      <div class="container">
         <p>
-         <button onclick="addNumber('1')"> 1</button>
-         <button onclick="addNumber('2')"> 2</button>
-          <button onclick="addNumber('3')"> 3</button>
-          <button onclick="addOperation('+')"> +</button>
-        </p>
-        <p>
-          <button onclick="addNumber('4')"> 4 </button>
-          <button onclick="addNumber('5')"> 5 </button>
-          <button onclick="addNumber('6')"> 6 </button>
-          <button onclick="addOperation('-')"> - </button>
-        </p>
-        <p>
-          <button onclick="addNumber('7')"> 7</button>
-          <button onclick="addNumber('8')"> 8</button>
-          <button onclick="addNumber('9')"> 9</button>
-          <button onclick="addOperation('*')"> *</button>
-        </p>
-        <p>
-            <button onclick="addNumber('0')"> 0</button>
-            <button onclick="addDecimal()"> .</button>
-            <button onclick="addOperation('/')"> /</button>
-            <button onclick="calculateResult()"> =</button>
-        </p>
-        <p>
-          <button onclick="clearCalculation()"> Cleared</button>
-        </p>
-
-        <p id="Ongoing-calculation">Ongoing Calculation:</p>
-
-        <p id="result">Result: </p>
-
+          <button onclick="addNumber('1')"> 1</button>
+          <button onclick="addNumber('2')"> 2</button>
+           <button onclick="addNumber('3')"> 3</button>
+           <button onclick="addOperation('+')"> +</button>
+         </p>
+         <p>
+           <button onclick="addNumber('4')"> 4 </button>
+           <button onclick="addNumber('5')"> 5 </button>
+           <button onclick="addNumber('6')"> 6 </button>
+           <button onclick="addOperation('-')"> - </button>
+         </p>
+         <p>
+           <button onclick="addNumber('7')"> 7</button>
+           <button onclick="addNumber('8')"> 8</button>
+           <button onclick="addNumber('9')"> 9</button>
+           <button onclick="addOperation('*')"> *</button>
+         </p>
+         <p>
+             <button onclick="addNumber('0')"> 0</button>
+             <button onclick="addDecimal()"> .</button>
+             <button onclick="addOperation('/')"> /</button>
+             <button onclick="calculateResult()"> =</button>
+         </p>
+         <p>
+           <button onclick="clearCalculation()"> Clear</button>
+         </p>
+ 
+         <p id="Ongoing-calculation">Ongoing Calculation:</p>
+ 
+         <p id="result">Result: </p>
+        </div>
         <script src="../js/calculator.js"></script>
 </body>
 </html>
